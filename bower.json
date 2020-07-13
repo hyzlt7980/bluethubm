@@ -1,0 +1,28 @@
+{
+  "name": "index.js",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Emran Billah <omegaregions0072004@yahoo.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/emranB/blueprint",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router-anim-in-out": "^1.0.2",
+    "angular-ui-router": "^1.0.15",
+    "jquery": "^3.5.1",
+    "semantic": "semantic-ui#^2.4.1",
+    "angular-sanitize": "^1.8.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "resolutions": {
+    "angular": "1.8.0"
+  }
+}

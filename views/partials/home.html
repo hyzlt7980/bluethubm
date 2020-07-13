@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+	<style type="text/css">
+		.masthead{
+			background-image: url('../../images/Rectangle 26.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.masthead.row{
+			height:100vh;
+		}
+		.ui.huge.primary.button{
+			size: 2vh;
+		}
+		/*Screen smaller than 678px. Mobile View*/
+		@media screen and (max-width: 678px){
+			#main-menu{
+		    	display: none;
+		    }
+		    .masthead.row{
+				height:50vh;
+			}
+			#aboutH1{
+				color:red;
+				margin-bottom: 2em;
+			}
+			.wsite-spacer2{
+				display:none;
+			}
+		}
+		/*Screen bigger than 678px. Tablet and Computer*/
+		@media screen and (min-width: 678px){
+			#hamburger{
+				display:none;
+			}
+			#aboutH1{
+				font-size: 3vw;
+			}
+
+		}
+		#aboutH1{
+			color:white;
+			margin-bottom: 2em;
+		}
+</style>
+	<link rel="stylesheet" type="text/css" href="../../css/home.css">
+</head>
+<body id = "aboutBody">
+	<div class ="ui container">
+		<div class = "row">
+			<div class="ui fixed inverted menu">
+				<div class = "ui simple dropdown item" id = "hamburger">
+					<button class="fluid large ui black button">
+						<i class="content icon"></i>
+					</button>
+					<div class="menu">
+						<a class="item">Home</a>
+						<a class="item">About</a>
+						<a class="item">Download</a>
+						<a class="item">Apply</a>
+						<a class="item">Media</a>
+						<a class="item">Contact</a>
+					</div>
+				</div>
+			</div>		
+			<div class="ui massive inverted fixed menu" id = "main-menu">
+				<a class="item" href="">Home</a>
+			 	<a href="about.html" class="item" >About</a>
+				<a class="item ">Download</a>
+				<a class="item">Apply</a>
+		 		<a class="item">Media</a>
+				<a class="item">Contact</a>
+			</div>
+		</div>
+	</div>
+	<div class="masthead row">
+		<div class = "ui text container">
+			<div class="wsite-spacer1" style="height:50px;"></div>
+			<div class="wsite-spacer2" style="height:200px;"></div>
+			<div class = "ui grid">
+				<div class="center aligned column">
+					<h1 id = "aboutH1">Blueprint is a social economic overlay designed to target social issues</h1>	
+					<div class="ui huge primary button">
+						Find Out More
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

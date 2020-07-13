@@ -1,0 +1,23 @@
+/*body{
+	background-image: url('../images/Rectangle 26.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: red;
+}
+@media screen and (max-width: 678px){
+	#main-menu{
+    	display: none;
+  }
+
+}
+@media screen and (min-width: 678px){
+	#hamburger{
+		display:none;
+	}
+}
+h1{
+/*	color: red;*/
+/*	margin-bottom: 3em;*/
+}
+*/

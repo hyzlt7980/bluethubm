@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/apply.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+</head>
+<body>
+    
+        <div class="ui container">
+            <div class="ui grid">
+
+                <!-- left side of the apply page with image-->
+                <div class="left floated eight wide column">
+                    <img src="../../images/ApplyPage.jpg" alt="applyNow" width="955" height="690">
+                </div>
+
+                <!-- right side of the apply page with text and button-->
+                <div class="right floated eight wide column">
+                    <p id="JoinApply">
+                       Join Our Team 
+                    </p>
+                   
+                    <p id="ApplyToday">
+                        Apply today
+                    </p>
+
+                    <p id="SaveOnPurchases">
+                        Want to help save more on purchases.
+                    </p>
+
+                    <p id="ProvideUserType">
+                        Please provide user type below:
+                    </p>
+
+                    <div class="ui primary button" data-modal-target="ApplicationForm">
+                        <p id="GetStartedText">
+                            Get Started
+                        </p>
+                        
+                    </div>
+                    
+                </div>
+                <div class="ui large modal" data-modal="ApplicationForm" id="h">
+                    <div class="ui compact menu">
+                        <div class="ui simple dropdown item">
+                            Select User Type
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <div class="item" id="retailer">Retailer</div>
+                            <div class="item" id="nonProfit">Non Profit</div>
+                            <div class="item" id="financialInstitution">Financial Institution</div>
+                        </div>
+                        </div>
+                         
+                    </div> 
+                     <form class="ui form" >   
+                        <div class=" required field">
+                            <label>First Name</label>
+                            <input type="text" name="first-name" placeholder="First Name">
+                        </div> 
+                     </form>  
+                    
+                </div> 
+                
+
+            </div>
+           
+        </div>
+
+    
+    <style>
+
+        
+    </style>
+
+    <script>
+        $('[data-modal-target]').on('click', function(){
+            $('.large.modal').modal('show')
+            //$('.ui.form').form('hide')
+        });
+
+         $('#retailer').on('click', function(){
+             console.log("hi")
+             $('#retailerForm').form('show')
+         });
+        
+    </script>
+</body>
+</html> 

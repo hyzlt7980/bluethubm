@@ -1,0 +1,182 @@
+body{
+			background: #f1f1f1;
+			font-family: "microsoft yahei";
+		}
+		*{padding: 0px ;margin: 0px;}
+		.header{
+			position: relative;
+			width: 100%;
+			font-size: 100%;
+		}
+		.detial{
+			position: absolute;
+			top: 40%;
+			left:15%;
+			font-size: 1rem;
+			text-align: center;
+			width: 65%;
+			color: #fff;
+			
+		}
+		.title{
+			font-size: 1.5rem;
+		}
+		.header img{
+			width: 100%;
+		}
+		.question{
+			font-size: 1.2rem;
+			color: #5190FB;
+			margin-top: 20px;
+		}
+		.show_detial{
+			width: 35%;
+			line-height: 20px;
+			margin:20px auto;
+		}
+		
+		@media screen and (max-width: 640px) {
+		    .show_detial{
+		    	width: 100%;
+		    	margin: auto;
+				font-size: 0.8rem;
+		    }
+			.detial_map{
+				font-size:0.8rem;
+			}
+			.title{
+				font-size: 1rem;
+			}
+			.question{
+				font-size: 0.8rem;
+				color: #5190FB;
+			}
+			.imp_map{
+				margin: auto!important;
+				width:100%;
+				text-align: center;
+			}
+		}
+		@media screen and (max-width: 960px) {
+		    .show_detial{
+		    	width: 100%;
+		    	margin: auto;
+				font-size: 0.7rem;
+		    }
+			.detial_map{
+				font-size:0.8rem;
+			}
+		.detial{
+			position: absolute;
+			top: 30%;
+			left:15%;
+			font-size: 1rem;
+			text-align: center;
+			width: 65%;
+			color: #fff;
+			
+		}
+			.question{
+				margin-top: 10px;
+			}
+			.title{
+				font-size: 1rem;
+			}
+			.question{
+				font-size: 0.8rem;
+				color: #5190FB;
+			}
+			
+			.imp_map{
+				margin: auto!important;
+				width:100%;
+				text-align: center;
+			}
+		}
+		
+		
+		.address{
+			margin-top: 20px;
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		.lefy_in{
+			width: 49%;
+			background: #fff;
+		}
+		.right_pic{
+			width: 49%;
+			background: #fff;
+			padding-bottom: 10px;
+		}
+		.right_pic img{
+			width:100%;
+		}
+		.user_name{
+			width:80%;
+			height: 30px;
+			border: 1px solid #ddd;
+		}
+		.address_in{
+			width:80%;
+			height: 30px;
+			border: 1px solid #ddd;
+		}
+		
+		.user_messages{
+			width:80%;
+			height: 30px;
+			border: 1px solid #ddd;
+			height: 100px;
+		}
+		.usee{
+			margin-left: 10%;
+			margin-top: 20px;
+		}
+		.detial_map{
+			width:70%;
+			margin:auto;
+		}
+		.imp_map{
+			margin:20px auto!important;width:70%;text-align: center;
+		}
+		.input_tijiao{
+			background: #5190FB;
+			width: 130px;
+			height: 40px;
+			line-height: 40px;
+			margin-top: 20px;
+			text-align: center;
+			float: right;
+		
+			border-radius: 10px;
+			color: #fff;
+		}
+		.tijiao{
+			width: 65%;
+			margin:30px auto;
+			overflow: auto;
+		}
+		.username{
+			margin-top: 50px;
+		}
+		.bottom{
+			background: #fff;
+			height:120px;
+			padding-top: 20px;
+			margin-top: 20px;
+		}
+		.left_logo{
+			width: 30px;
+			margin-left: 5%;
+			float: left;
+		}
+		.left_logo img{
+			width: 30px;
+		}
+		.right_detial{
+			float: left;
+			margin-left: 20px;
+			line-height: 40px;
+		}

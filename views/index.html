@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>WAGIO Platform</title>
+
+    <base href="/">
+
+    <!-- jQuery -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+
+    <!-- Angular JS -->
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/bower_components/angular-animate/angular-animate.js"></script>
+    <script src="/bower_components/angular-sanitize/angular-sanitize.js"></script>
+
+    <!-- Angular JS Anim-In-Out -->
+    <link rel="stylesheet" href="/bower_components/angular-ui-router-anim-in-out/css/anim-in-out.css">
+    <script src="/bower_components/angular-ui-router-anim-in-out/anim-in-out.js"></script>
+    
+    <!-- BootStrap -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <!-- Semantic UI -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script src="/bower_components/semantic/dist/semantic.js"></script>
+    <link rel="stylesheet" href="/bower_components/semantic/dist/semantic.css">
+    <script src="/bower_components/slick-carousel/slick/slick.js"></script>
+    <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick-theme.css">
+    
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Chivo|Quattrocento+Sans|Rajdhani|Teko|Electrolize|Arbutus+Slab|Halant|Rasa" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <script src="/js/custom.js"></script>
+
+    <!-- Include Controllers -->
+    <script src="/controllers/index.js"></script>
+    <script src="/controllers/MainController.js"></script>
+
+</head>
+
+
+
+<body>
+    
+    <div ng-app="app">
+        <div ui-view="home"> Index.html </div>
+        <div ui-view="about"> Index.html </div>
+        <div ui-view="apply"> Index.html </div>
+        <div ui-view="download"> Index.html </div>
+        <div ui-view="media"> Index.html </div>
+        <div ui-view="contact"> Index.html </div>
+    </div>
+
+</body>
+
+</html>
+

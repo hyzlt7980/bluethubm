@@ -1,0 +1,80 @@
+.ui.container{
+  position: relative; 
+  width: 100%;
+  height: 50%;
+  top: 100px; 
+}
+
+.right.floated.eight.wide.column{
+  /* border-style: solid ;    */
+  height: 930px;
+  width: 5px;
+}
+
+.left.floated.eight.wide.column{
+  /* border-style: solid ;  */
+  height: 930px;
+  width: 5px;
+}
+
+.ui.primary.button{
+  position: relative;
+  left: 555px;
+  top: 140px;
+  height: 3.5em;
+  width: 17em;
+}
+
+.ui.large.modal{
+  height: 40%;
+  width: 50%;
+}
+
+.ui.form{
+  position: relative;
+  
+  width: 20em;
+}
+
+.ui.compact.menu{
+  position: relative;
+  left: 42%;
+  top: 10px;
+}
+
+
+#JoinApply{
+  position: relative;
+  left: 440px;
+  top: 250px;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#ApplyToday{
+  position: relative;
+  left: 569px;
+  top: 180px;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#SaveOnPurchases{
+  position: relative;
+  left: 472px;
+  top: 150px;
+  font-size: 1.4em;
+}
+
+#ProvideUserType{
+  position: relative;
+  left: 524px;
+  top: 130px;
+  font-size: 1.4em;
+}
+
+#GetStartedText{
+  position: relative;
+  top: 2px;
+  font-size: 1.3em;
+}
